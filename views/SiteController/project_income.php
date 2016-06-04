@@ -29,7 +29,7 @@ and open the template in the editor.
 </script>
 
 <div class="container">
-    <div class="row" style="margin-left: 15px; ">
+    <div class="row containpj" style="margin-left: 15px; ">
         <span class="pos-txtmain"></span>
         <button class="btn btn-info btn-sm " style="float: right;" data-toggle="modal" data-target="#add_income" >+รายรับ </button>
         <div class="filter col-lg-8 col-md-8 col-sm-8"  >

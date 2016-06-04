@@ -29,8 +29,8 @@ and open the template in the editor.
 </style>
 <link rel="stylesheet" href="css/project_detail_style.css"/>
 <script type="text/javascript" src="js/js_project_detail.js"></script>
-<div class="container"  ">
-    <div class="row" style="margin-left: 15px;">
+<div class="container "  >
+    <div class="row containpj" style="margin-left: 15px;">
 
 
         <form action="#" method="post" style="" role="form"  >

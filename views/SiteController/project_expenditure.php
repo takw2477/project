@@ -30,7 +30,7 @@ $(document).ready(function (){
 </script>
 
 <div class="container">
-    <div class="row" style="margin-left: 15px;">
+    <div class="row containpj" style="margin-left: 15px;">
 
   
            <button class="btn btn-info btn-sm " style="float: right;" data-toggle="modal" data-target="#new_expenditure" >+รายจ่าย </button>

@@ -178,7 +178,7 @@
 
         <div class="row" style="margin-top: 10px;" >
             <div class="col-lg-6">
-                <input class="btn btn-info" style="width: 100%;" type="submit" value="SAVE" name="pass" id="user" />
+                <a href="index.php?controllers=SiteController&views=project_show&sub=2" class="btn btn-info"  style="width: 100%;" type="submit" name="pass" id="user" >SAVE</a>
             </div>
             <div class="col-lg-6">
                 <a href="../views/ReportController/project_print_po.php" class="btn btn-info" style="width: 100%;" target="_blank"  >PRINT</a>
