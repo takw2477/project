@@ -1,3 +1,8 @@
+<head>
+<meta charset="UTF-8">
+</head>
+
+
 <script src="../../../jquery-1.12.3.js" ></script>
 <script src="../../../bootstrap-3.3.6-dist/js/bootstrap.js" ></script>
 <link href="../../../bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" >
