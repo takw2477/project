@@ -1,0 +1,42 @@
+.Header{
+    
+    background-color: #0275d8;
+    color: white;
+    
+    
+    
+}
+.nav-web{
+  
+}
+.tab-web{
+    
+  
+}
+
+
+.tab-focus{
+    background-color: #cccccc;
+    color: white;
+}
+
+.filter{
+    width: 100%;
+    text-align: center;
+    background-color: #5BC0DE ;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table{
+   background-color: white; 
+  
+    
+}
+
+thead{
+    background-color: #B5B5B5;
+    color: white;
+    text-align: center;
+}
