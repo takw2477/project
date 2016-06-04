@@ -4,6 +4,9 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+<head>
+<meta charset="UTF-8">
+</head>
 <link rel="stylesheet" href="../../webt/css/po_style.css" />
 <div >
 <table border="0" cellpadding="0" cellspacing="0" width="745" style="border-collapse:
