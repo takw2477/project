@@ -22,18 +22,17 @@
 </ul>
 -->
 <style type="text/css">
-    .row{
+    .containpj{
         margin-top:20px;
         margin-right: 40px;
     }
-    
 </style>
 
 
 <div class="container">
     <div style="text-align: center; font-weight: bold; font-size: 24px;" id="hpj">H</div>
-    <ul class="nav nav-tabs">
-        <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 1) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=1">Detail</a></li>
+    <ul class="nav nav-tabs nav-pills">
+        <li class=" <?php if(isset($_GET['sub']) && $_GET['sub'] == 1) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=1">Detail</a></li>
         <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 2) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=2">Supplier</a></li>
         <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 3) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=3">รายรับ</a></li>
         <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 4) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=4">รายจ่าย</a></li>
