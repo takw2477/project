@@ -61,7 +61,7 @@ $(document).ready(function (){
                     <h3>เบอร์โทร:</h3>
                 </div>
                 <div class="row" >
-                    <input style="width: 100%;" type="text" value="0896548523" name="pass" id="user" >
+                    <input style="width: 100%;" type="text" value="089-6548523" name="pass" id="user" >
                 </div>
 
                 <div class="row"style="margin-top: 10px;" >

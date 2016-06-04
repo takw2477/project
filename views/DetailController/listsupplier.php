@@ -36,7 +36,7 @@
          
                 <td>098571236</td>
                 <td>
-                    <a onclick='return confirm("คุณต้องการedit หรือไม่");' href="http://localhost/engineerfast/web/index.php?controllers=DetailController&views=editsupplier" class="glyphicon glyphicon-pencil" ></a>
+                    <a onclick='return confirm("คุณต้องการedit หรือไม่");' href="index.php?controllers=DetailController&views=editsupplier" class="glyphicon glyphicon-pencil" ></a>
                 </td>
             </tr>
 
