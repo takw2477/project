@@ -8,7 +8,7 @@
     <div class="row" style="margin-left: 10px;" >   
   
         <div style="text-align: right;" >
-            <a onclick='return confirm("คุณต้องการเพิ่มข้อมูลSupplierหรือไม่");' href="http://localhost/engineerfast/web/index.php?controllers=DetailController&views=newsupplier" class="btn btn-info glyphicon glyphicon-plus" >New</a>
+            <a onclick='return confirm("คุณต้องการเพิ่มข้อมูลSupplierหรือไม่");' href="index.php?controllers=DetailController&views=newsupplier" class="btn btn-info glyphicon glyphicon-plus" >New</a>
         </div>
 
 
