@@ -9,14 +9,12 @@ and open the template in the editor.
            
         $("input[name=rdio]").change( function () {
            
-            if ($(this).val() === 'h') {
-                $(".inp-control").attr("disabled", "disabled");
-                $(".invd").removeAttr("disabled");
+            if ($(this).val() === 'n') {
+               $(".invd").attr("disabled", "disabled");
+               
             } else {
-                $(".invd").attr("disabled", "disabled");
-                $(".inp-control").removeAttr("disabled");
-
-
+                $(".invd").removeAttr("disabled");
+               
             }
         });
     });
@@ -40,21 +38,21 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                มี  <input  type="radio" name="rdio" class="" value="h" />
-                                ไม่มี  <input  type="radio" name="rdio" class="" checked value="n" />
+                                มี  <input  type="radio" name="rdio" class="" value="h" checked />
+                                ไม่มี  <input  type="radio" name="rdio" class=""  value="n" />
                             </td>                        
                         <tr>
-
                         <tr>
                             <td>
-                                <label>วันที่ออก invoice</label>
+                                <label>เลขที่ INV.</label>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="date" class="invd" disabled/>
+                                <input type="text" class="inp-control invd "  />
                             </td>                        
-                        <tr>
+                        </tr>
+                 
 
 
                         <tr>
@@ -64,7 +62,7 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                <select class="inp-control">
+                                <select class="inp-control invd " >
                                     <option>นาย xxxxx xxxxx</option>
                                 </select>
                             </td>
@@ -76,7 +74,7 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                <input  type="date" class="inp-control" />
+                                <input  type="date" class="inp-control invd "  />
                             </td>
                         </tr>
                         <tr>
@@ -86,7 +84,7 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                <input  type="number" class="inp-control" />
+                                <input  type="number" class="inp-control invd "  />
                             </td>                        
                         </tr>
 
@@ -97,7 +95,7 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                <input  class="inp-control" type="file" /> 
+                                <input  class="inp-control invd "  type="file" /> 
                             </td>
                         </tr> 
 
