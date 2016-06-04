@@ -8,7 +8,7 @@
             </div>
             <div class="modal-body pop-body">
                 <div></div>
-                <form action="index.php?controllers=SiteController&views=project_supplier" method="post">
+                <form action="index.php?controllers=SiteController&views=project_show&sub=2" method="post">
                     <table  class="tlb-control">
                         <tr>
                             <td><label>ประเภท</label></td>

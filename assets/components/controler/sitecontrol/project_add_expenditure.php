@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body pop-body">
 
-                <form action="index.php?controllers=SiteController&views=project_expenditure" method="post">
+                <form action="index.php?controllers=SiteController&views=project_show&sub=4" method="post">
                  
                         <table class="tlb-control " >
 

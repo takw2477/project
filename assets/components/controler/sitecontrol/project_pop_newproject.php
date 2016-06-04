@@ -22,7 +22,7 @@ $(document).ready(function(){
             </div>
             <div class="modal-body pop-body">
                 <div></div>
-                <form action="index.php?controllers=SiteController&views=project_show" method="post">
+                <form action="index.php?controllers=SiteController&views=project_show&sub=1" method="post">
                     <table class="tlb-control" >
                         <tr>
                             <td>

@@ -13,7 +13,7 @@ and open the template in the editor.
             </div>
             <div class="modal-body pop-body">
 
-                <form action="index.php?controllers=SiteController&views=project_expenditure" method="post">
+                <form action="#" method="post">
                     
                     <table class="tlb-control " >
                         <tr>
