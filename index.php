@@ -10,7 +10,6 @@
         //   unset($_SESSION['type'])    ;      
         ?>
 
-
         <?php
         isset($_POST['user']) ? $user = $_POST['user'] : $user = "";
         isset($_POST['pass']) ? $pass = $_POST['pass'] : $pass = "";
