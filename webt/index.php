@@ -16,9 +16,9 @@ and open the template in the editor.
         }
         ?>
         <meta charset="UTF-8">
-        <script src="assets/jquery-1.12.3.js" ></script>
-        <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.js" ></script>
-        <link href="assets/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" >
+        <script src="../assets/jquery-1.12.3.js" ></script>
+        <script src="../assets/bootstrap-3.3.6-dist/js/bootstrap.js" ></script>
+        <link href="../assets/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" >
         <link href="css/web.css" rel="stylesheet" >
         <title>FastEngineer</title>
         
