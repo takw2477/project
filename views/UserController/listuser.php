@@ -54,7 +54,7 @@
                         <td>John</td>
                         <td>JohnDoe</td>
                         <td>john@example.com</td>
-                        <td>098571236</td>
+                        <td>098-571236</td>
                         <td>
                             <a onclick='return confirm("คุณต้องการedit หรือไม่");' href="index.php?controllers=UserController&views=edituser" class="glyphicon glyphicon-pencil" ></a>
                             <a onclick='return confirm("คุณต้องการdelate หรือไม่");' href="index.php?controllers=UserController&views=deluser"  class="glyphicon glyphicon-remove" ></a>
@@ -67,7 +67,7 @@
                         <td>Mary</td>
                         <td>MaryMoe</td>
                         <td>mary@example.com</td>
-                        <td>098571237</td>
+                        <td>098-571237</td>
                         <td><a href="index.php?controllers=UserController&views=edituser" class="glyphicon glyphicon-pencil" ></a>
                             <a onclick='return confirm("คุณต้องการdelate หรือไม่");' href="index.php?controllers=UserController&views=deluser"  class="glyphicon glyphicon-remove" ></a>
 
@@ -80,7 +80,7 @@
                         <td>July</td>
                         <td>JulyDooley</td>
                         <td>july@example.com</td>
-                        <td>098571237</td>
+                        <td>098-571237</td>
                         <td><a href="index.php?controllers=UserController&views=edituser" class="glyphicon glyphicon-pencil" ></a>
                             <a onclick='return confirm("คุณต้องการdelate หรือไม่");' href="index.php?controllers=UserController&views=deluser"  class="glyphicon glyphicon-remove" ></a>
 
