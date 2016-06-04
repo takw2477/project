@@ -20,7 +20,7 @@ and open the template in the editor.
         <script src="../assets/bootstrap-3.3.6-dist/js/bootstrap.js" ></script>
         <link href="../assets/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" >
         <link href="css/web.css" rel="stylesheet" >
-        <title>FastEngineer</title>
+        <title>FosterEngineer</title>
         
 
     </head>
