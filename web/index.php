@@ -11,7 +11,7 @@ and open the template in the editor.
         session_start();
         if (!isset($_SESSION['type'])) {
             ?>
-            <meta http-equiv="refresh" content="0; url=../fosterengineer">
+            <meta http-equiv="refresh" content="0; url=../">
             <?php
         }
         ?>
