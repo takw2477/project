@@ -49,6 +49,9 @@ and open the template in the editor.
                                 <li><a href="index.php?controllers=SiteController&views=project" class="<?php if($_GET['views']=="project"){ echo 'tab-focus';}else{echo 'tab-web';} ?>" style="margin: 2px;margin-bottom: 0px;margin-top: 0px;"><span>Project</span></a></li>
                                <!-- <li><a href="index.php?controllers=SiteController&views=listproject" class="<?php if($_GET['views']=="listproject"){ echo 'tab-focus';}else{echo 'tab-web';} ?>" style="margin: 2px;margin-bottom: 0px;margin-top: 0px;"><span >Listproject</span></a></li>  -->
                                 <li><a href="index.php?controllers=SiteController&views=balancesheet" class="<?php if($_GET['views']=="balancesheet"){ echo 'tab-focus';}else{echo 'tab-web';} ?>" style="margin: 2px;margin-bottom: 0px;margin-top: 0px;"><span >Balance Sheet</span></a></li>
+                                <li><a href="index.php?controllers=SiteController&views=list_po" class="<?php if($_GET['views']=="list_po"){ echo 'tab-focus';}else{echo 'tab-web';} ?>" style="margin: 2px;margin-bottom: 0px;margin-top: 0px;"><span >List PO</span></a></li>
+                               
+                                
                                 <li class="tab-web dropdown">
                                     <a   class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><span >Other</span>
                                         <span class="caret"></span></a>
