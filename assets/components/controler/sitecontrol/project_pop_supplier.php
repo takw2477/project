@@ -4,7 +4,7 @@
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header pop-head">
-                <span>ADD SUPPLIER</span>
+                <span>ADD NEW PURCHASE ORDER</span>
             </div>
             <div class="modal-body pop-body">
                 <div></div>
@@ -56,7 +56,7 @@
 
                 </form>
             </div>
-
+`
         </div>
     </div>
 </div>

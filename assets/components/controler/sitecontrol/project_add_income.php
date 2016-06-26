@@ -38,13 +38,13 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                มี  <input  type="radio" name="rdio" class="" value="h" checked />
-                                ไม่มี  <input  type="radio" name="rdio" class=""  value="n" />
+                                มีแล้ว  <input  type="radio" name="rdio" class="" value="h" checked />
+                                ยังไม่มี  <input  type="radio" name="rdio" class=""  value="n" />
                             </td>                        
                         <tr>
                         <tr>
                             <td>
-                                <label>เลขที่ INV.</label>
+                                <label style="margin-top: 10px;">เลขที่ INV.</label>
                             </td>
                         </tr>
                         <tr>
