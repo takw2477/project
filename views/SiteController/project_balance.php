@@ -11,7 +11,7 @@ and open the template in the editor.
 <script type="text/javascript" >
     $(document).ready(function () {
         $('#headder').text("P201605001 บ.ไลอ้อน");
-        $('#hpj').text("รายละเอียด งลดุลของโปรเจค");
+        $('#hpj').text("งลดุลของโปรเจค");
     });
 </script>
 <style>

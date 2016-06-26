@@ -10,7 +10,7 @@ and open the template in the editor.
 <script type="text/javascript" >
 $(document).ready(function (){
     $('#headder').text("P201605001 บ.ไลอ้อน");
-    $('#hpj').text("รายละเอียด รายจ่ายของโปรเจค");
+    $('#hpj').text("รายจ่ายของโปรเจค");
 });
 </script>
 <style>
@@ -33,7 +33,7 @@ $(document).ready(function (){
     <div class="row containpj" style="margin-left: 15px;">
 
   
-           <button class="btn btn-info btn-sm " style="float: right;" data-toggle="modal" data-target="#new_expenditure" >+รายจ่าย </button>
+           <button class="btn btn-info btn-sm " style="float: right;" data-toggle="modal" data-target="#new_expenditure" >+เงินสดย่อย </button>
             <div class="filter col-lg-8 col-md-8 col-sm-8"   >
                 ประเภท: <select style="color:black;">  
                     <option value="" >all</option>
@@ -62,7 +62,8 @@ $(document).ready(function (){
      
             <thead>
                 <tr>
-                    <th>No.</th>
+                    <td>#NO</td>
+                    <th>#PO.</th>
                     <th>ประเภท</th>
                     <th>จ่ายให้</th>
                     <th>ผู้จ่าย</th>
@@ -75,6 +76,7 @@ $(document).ready(function (){
             <tbody>
                 <tr>
                     <td>1</td>
+                    <td>20160426001</td>
                     <td>บริษัท</td>
                     <td>ไฮเปอร์อินสตรูเมนท์ จำกัด</td>
                     <td>นาย แอดมิน ท่านหนึ่ง</td>
@@ -88,6 +90,7 @@ $(document).ready(function (){
                 </tr>
                 <tr>
                     <td>2</td>
+                    <td>20160426002</td>
                     <td>บุคคล</td>
                     <td>นาย วุฒิศักดิ์ หมอยา</td>
                     <td>นาย แอดมิน ท่านหนึ่ง</td>
@@ -101,6 +104,7 @@ $(document).ready(function (){
                 </tr>
                 <tr>
                     <td>3</td>
+                    <td>20160426003</td>
                     <td>อื่นๆ </td>
                     <td>โรงแรม บานาน่าอิน</td>
                     <td>นาย หน้าหน้าโปรเจค ท่านหนึ่ง</td>

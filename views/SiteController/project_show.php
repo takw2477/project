@@ -33,10 +33,12 @@
     <div style="text-align: center; font-weight: bold; font-size: 24px;" id="hpj">H</div>
     <ul class="nav nav-tabs nav-pills">
         <li class=" <?php if(isset($_GET['sub']) && $_GET['sub'] == 1) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=1">Detail</a></li>
-        <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 2) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=2">Supplier</a></li>
         <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 3) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=3">รายรับ</a></li>
         <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 4) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=4">รายจ่าย</a></li>
         <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 5) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=5">งลดุล</a></li>
+        <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 6) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=6">P.O.</a></li>
+        <li class="<?php if(isset($_GET['sub']) && $_GET['sub'] == 7) echo 'active'; ?>"><a  href="index.php?controllers=SiteController&views=project_show&sub=7">ใบกำกับภาษี</a></li>
+         
     </ul>
 
    
@@ -57,7 +59,10 @@
                     break;
                 case 5: require '../views/SiteController/project_balance.php';
                     break;
-                
+                case 6: require '../views/SiteController/project_supplier.php';
+                    break;
+                case 7: require '../views/SiteController/project_text_invoice.php';
+                    break;
             }
             
             

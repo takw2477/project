@@ -10,7 +10,7 @@ and open the template in the editor.
 <script type="text/javascript" >
     $(document).ready(function () {
         $('#headder').text("P201605001 บ.ไลอ้อน");
-        $('#hpj').text("รายละเอียด รายรับของโปรเจค");
+        $('#hpj').text("รายรับของโปรเจค");
     });
 </script>
 <style>
@@ -38,10 +38,13 @@ and open the template in the editor.
                 <option value="" >บริษัท</option>
                 <option value="" >บุคคล</option>
             </select>
-            status: <select style="color: black;"   >
+            Status: <select style="color: black;"   >
                 <option value="" >all</option>
-                <option value="" >จ่ายแล้ว</option>
-                <option value="" >ยังไม่จ่าย</option>
+                <option value="" >Sent</option>
+                <option value="" >Wait Cash Transfer</option>
+                <option value="" > Cash Transfer Completed</option>
+                <option value="" > Cancel</option>
+            
             </select>
             Form:<select style="color: black;"   >
                 <option value="" >2015</option>
@@ -64,12 +67,14 @@ and open the template in the editor.
     <table class="table table-bordered table-hover ">
             <thead>
                 <tr>
-                    <th>No.</th>
-                    <th>รหัสลูกค้า</th>
+                    <th>#No</th>
+                    <th>#ลูกค้า</th>
+                    <th>#INV</th>
                     <th>จำนวนเงิน</th>
-                    <th>สถานะ</th>
+                    <th>วันที่ออก</th>
                     <th>วันกำหนดจ่าย</th>
                     <th>วันทีรับเงิน</th>
+                    <th>สถานะ</th>
                     <th>tool</th>
                 </tr>
             </thead>
@@ -77,38 +82,52 @@ and open the template in the editor.
                 <tr>
                     <td>1</td>
                     <td>C0001</td>
+                    <td>59001</td>
                     <td>20000</td>
-                    <td>จ่ายแล้ว</td>
                     <td>31-05-2016</td>
                     <td>31-05-2016</td>
+                    <td>31-05-2016</td>
+                     <td>Completed</td>
                     <td>
-                        <a href="index.php?controllers=ReportController&amp;views=invoice" class="btn btn-sm btn-info ">INV. </a>
-
-                        <a harf="" onclick="return confirm('ยืนยันการยกเลิก')" class="btn btn-sm btn-info " style="" data-toggle="modal" data-target="#new_supplier" >ยกเลิก.</a>
+                            <a class="btn btn-sm btn-info"  data-toggle="modal" data-target="#chg_stat_inv" >stat</a>
+                            <a href="index.php?controllers=ReportController&amp;views=invoice" class="btn btn-sm btn-info ">INV. </a>
+                            <a  class="btn btn-sm btn-info "  >print </a>
+        
                     </td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>C0001</td>
+                    <td>59002</td>
                     <td>20000</td>
-                    <td>ยังไม่จ่าย</td>
-                    <td>16-065-2016</td>
+                    
+                    <td>16-05-2016</td>
+                    <td>16-05-2016</td>
                     <td> </td>
+                    <td>Wait</td>
                     <td>
-                        <a href="index.php?controllers=ReportController&amp;views=invoice" class="btn btn-sm btn-info ">INV. </a>
-                        <a harf="" onclick="return confirm('ยืนยันการยกเลิก')" class="btn btn-sm btn-info " style="" data-toggle="modal" data-target="#new_supplier" >ยกเลิก.</a>
+                            <a class="btn btn-sm btn-info"  data-toggle="modal" data-target="#chg_stat_inv" >stat</a>
+                            <a href="index.php?controllers=ReportController&amp;views=invoice" class="btn btn-sm btn-info ">INV. </a>
+                            <a  class="btn btn-sm btn-info "  >print </a>
+                       
                     </td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>C0001</td>
+                    <td>59003</td>
                     <td>20000</td>
-                    <td>ยังไม่จ่าย</td>
-                    <td>16-065-2016</td>
+                    <td>16-05-2016</td>
+                    <td>16-05-2016</td>
                     <td> </td>
+                    <td>Wait</td>
                     <td>
-                        <a href="index.php?controllers=ReportController&amp;views=invoice" class="btn btn-sm btn-info ">INV. </a>
-                        <a harf="" onclick="return confirm('ยืนยันการยกเลิก')" class="btn btn-sm btn-info " style="" data-toggle="modal" data-target="#new_supplier" >ยกเลิก.</a>
+                            <a class="btn btn-sm btn-info"  data-toggle="modal" data-target="#chg_stat_inv" >stat</a>
+                            <a href="index.php?controllers=ReportController&amp;views=invoice" class="btn btn-sm btn-info ">INV. </a>
+                            <a  class="btn btn-sm btn-info "  >print </a>
+
+                      
+                        
                     </td>
                 </tr>
             </tbody>
@@ -136,3 +155,4 @@ and open the template in the editor.
 </div>
 
 <?php include '../assets/components/controler/sitecontrol/project_add_income.php'; ?>
+<?php include '../assets/components/controler/sitecontrol/porject_manage_invoid_stus.php'; ?>

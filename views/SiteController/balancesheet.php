@@ -65,6 +65,7 @@
                         <th style="text-align: center;">CustomerId</th>
                         <th style="text-align: center;">Customer</th>
                         <th style="text-align: center;">ประเภท</th>
+                        <th style="text-align: center;">ยอด PO</th>
                         <th style="text-align: center;">รายรับ</th>
                         <th style="text-align: center;">รายจ่าย</th>
                     </tr>
@@ -89,6 +90,7 @@
 
 
                         </td>
+                        <td>100000</td>
                         <td> <div class="row"  >
                                 <div class="col-lg-1" >0</div>
 
@@ -123,6 +125,7 @@
 
 
                         </td>
+                        <td>10000</td>
                         <td> <div class="row"  >
                                 <div class="col-lg-1" >0</div>
 
@@ -139,29 +142,28 @@
 
                     </tr>
 
-
+                    
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>Sum</td>
+                        <td>110000</td>
+                        <td>4500</td>
+                        <td>4500</td>
+                    </tr>        
+                    <tr>
+                        <td colspan="3" ></td>
+                        <td colspan="2" style="text-align: center;">
+                           งบดุล
+                        </td>
+                        <td>
+                            105500
+                        </td>
+                    </tr>
 
                 </tbody>
             </table>
         </div>
-        <div class="container" >
-            <div class="row" >
-                <div class="col-lg-6" ></div>
-                <div class="col-lg-6" >
-                    <div class="row" style="border-color: black;border-width: 1px;border-bottom-style: solid;"  >
-                        <div class="col-lg-4"  >รวม</div>
-                        <div class="col-lg-4" >4500</div>
-                        <div class="col-lg-4" >4500</div>
-                    </div>
-                    <div class="row" style="border-color: black;border-width: 1px;border-bottom-style: solid;" >
-                        <div class="col-lg-6">งบดุล</div>
-                        <div class="col-lg-6">0</div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
+    
 
     </div>
 

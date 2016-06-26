@@ -39,7 +39,7 @@ and open the template in the editor.
 
                     <tr>
                         <td>
-                            <div>PO.no</div>
+                            <div>PO number</div>
                         </td>
                         <td>
                             <div>E-mail</div>
