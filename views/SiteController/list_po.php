@@ -27,7 +27,9 @@
                     <th style="width: 7%;text-align: center;">Year</th>
                      <th style="text-align: center;">Name</th>    
                       <th style="text-align: center;">SupplierId</th>    
-                    <th style="text-align: center;">PO</th>                  
+                    <th style="text-align: center;">PO</th>      
+                    
+                     <th style="text-align: center;">Status</th>   
                     <th style="width: 20%;text-align: center;">Price</th>
                 </tr>
             </thead>
@@ -41,6 +43,7 @@
                     <td>Lion</td>
                     <td>S59001</td>
                     <td>PO59001</td>
+                    <td>pay</td>
                     <td>25000</td>
                 </tr>
                 <tr>
@@ -51,6 +54,7 @@
                      <td>Lion</td>
                     <td>S59001</td>
                     <td>PO59002</td>
+                       <td>pay</td>
                     <td>30000</td>
                 </tr>
                 <tr>
@@ -61,6 +65,7 @@
                      <td>Lion</td>
                     <td>S59001</td>
                     <td>PO59003</td>
+                       <td>pay</td>
                     <td>40000</td>
                 </tr>
 
